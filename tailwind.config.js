@@ -9,6 +9,7 @@ export default {
       transform: ['group-hover', 'hover'],
     },
   },
+
   plugins: [],
 }
 
