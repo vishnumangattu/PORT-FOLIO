@@ -32,7 +32,7 @@ function App() {
       <div id='exp' className='w-screen bg-slate-900'>
       <Exp/>
       </div>
-      <div id='contact' className='w-screen h-screen bg-slate-900'>
+      <div id='contact' className='w-screen bg-slate-900'>
       <Contact/>
       
       </div>
