@@ -7,8 +7,37 @@ import Education from './components/Education.jsx'
 import Exp from './components/Exp.jsx'
 import Contact from './components/Contact.jsx'
 import Skill from './components/Skill.jsx'
+import { useEffect, useState } from "react";
 function App() {
-  
+  const [allImagesLoaded, setAllImagesLoaded] = useState(false);
+
+  useEffect(() => {
+    const images = document.images;
+    let loaded = 0;
+
+    const onImageLoad = () => {
+      loaded++;
+      if (loaded === images.length) {
+        setAllImagesLoaded(true);
+      }
+    };
+
+    for (let i = 0; i < images.length; i++) {
+      if (images[i].complete) {
+        loaded++;
+      } else {
+        images[i].addEventListener("load", onImageLoad);
+      }
+    }
+
+    if (loaded === images.length) {
+      setAllImagesLoaded(true);
+    }
+  }, []);
+
+  if (!allImagesLoaded) {
+    return <div>Loading images...</div>;
+  }
   return (
     <>
      <BrowserRouter>
