@@ -45,6 +45,7 @@ function App() {
           backgroundImage: "url('./software-developer-6521720.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          overflow:'hidden',
           backgroundRepeat: 'no-repeat',
         }}>
     <Navbar/>
