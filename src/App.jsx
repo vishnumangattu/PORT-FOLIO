@@ -8,18 +8,8 @@ import Education from './components/Education.jsx'
 import Exp from './components/Exp.jsx'
 import Contact from './components/Contact.jsx'
 import Skill from './components/Skill.jsx'
-import Loader from './components/Loader.jsx';
-
 function App() {
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 4000);
-    return () => clearTimeout(timer);
-  }, []);
-
-  if (loading) return <Loader />;
-
+  
   return (
     <>
      <BrowserRouter>
@@ -27,6 +17,7 @@ function App() {
           backgroundImage: "url('./software-developer-6521720.jpg')",
           backgroundSize: 'cover',
           backgroundPosition: 'center',
+          overflow:'hidden',
           backgroundRepeat: 'no-repeat',
         }}>
     <Navbar/>
