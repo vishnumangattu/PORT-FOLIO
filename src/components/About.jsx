@@ -3,7 +3,7 @@ import React,{useState,useEffect}from 'react';
 const About = () => {
   const [flipped, setFlipped] = useState(false);
   return (
-    <div className='w-screen'>
+    <div className='w-screen box-border'>
     <section className="about px-1 md:px-1 pt-20 bg-slate-900 flex flex-col md:flex-row items-center">
        {/* Image Section */}
        <div className="md:w-2/5 w-full flex justify-center md:mt-0">
@@ -33,7 +33,7 @@ const About = () => {
               }`}
             >
               <img
-                src="./vishnu.jpg" /* Replace with your second image */
+                src="./hello.jpg" /* Replace with your second image */
                 alt="About Me Back"
                 className="w-full h-full object-cover rounded-xl"
               />

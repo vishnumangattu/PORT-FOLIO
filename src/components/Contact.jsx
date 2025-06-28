@@ -33,7 +33,7 @@ const Contact = () => {
   };
 
   return (
-    <section className="bg-slate-900 text-white pt-10" id="contact">
+    <section className="bg-slate-900 text-white pt-10 box-border" id="contact">
       <div className="md:container px-5 py-14">
         <h2 className="title !text-white text-4xl font-bold mb-6 mt-10">CONTACT ME</h2>
         <h4 className="subtitle text-2xl italic">GET IN TOUCH</h4>

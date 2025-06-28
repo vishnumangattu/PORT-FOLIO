@@ -26,7 +26,7 @@ const scrollToSection = (id) => {
 };
 
   return (
-    <nav className={`w-full flex items-center py-3 fixed top-0 z-20  ${
+    <nav className={`w-full flex items-center py-3 fixed top-0 z-20 box-border  ${
       scrolled ? "bg-transparent":"bg-blue-900"}`}>
          <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
          <div className='flex ml-6'>

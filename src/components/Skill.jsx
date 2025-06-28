@@ -13,7 +13,7 @@ function Skill() {
     }
 
     return (
-        <div id ="skills"className="skills">
+        <div id ="skills" className="skills box-border">
             <div className="skillsHeader">
                 <h2 className='text-slate-100'>Skills</h2>
             </div>

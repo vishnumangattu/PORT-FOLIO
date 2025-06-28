@@ -10,7 +10,7 @@ const Exp = () => {
   };
 
   return (
-    <section className="max-w-6xl mx-auto px-4 py-12 md:py-20">
+    <section className="max-w-6xl mx-auto px-4 py-12 md:py-20 box-border">
     <div className="max-w-3xl mx-auto pb-12 text-center md:pb-20">
       <div className="inline-flex items-center gap-3 pb-3">
         <span className="inline-flex bg-gradient-to-r from-indigo-500 to-indigo-200 bg-clip-text text-transparent text-6xl"> Project Works</span>

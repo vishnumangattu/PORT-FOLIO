@@ -29,7 +29,7 @@ const educationData = [
 
 function Education() {
     return (
-        <div className="min-h-screen bg-slate-900 text-white flex items-center justify-center" id="resume" >
+        <div className="box-border min-h-screen bg-slate-900 text-white flex items-center justify-center" id="resume" >
             <div className="w-full max-w-7xl px-6 flex flex-col md:flex-row items-center gap-10">
                 {/* Education Cards */}
                 <div className="w-full md:w-2/3 flex flex-col gap-8">
